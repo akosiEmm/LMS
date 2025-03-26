@@ -200,7 +200,7 @@
 
         .bg-pattern {
             background-color: #f8f9fa;
-            background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e9ecef' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+            background-image: url('{{ asset('images/greenboard.jpg') }}');
         }
 
         .btn-primary {
@@ -371,7 +371,7 @@
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
                     <div class="card topic-card">
-                        <img src="/api/placeholder/400/250" class="card-img topic-img" alt="Linear Equations">
+                        <img src="{{ asset('images/2.jpg') }}" class="card-img topic-img" alt="Linear Equations">
                         <div class="card-img-overlay d-flex flex-column justify-content-end">
                             <h5 class="card-title text-white">Linear Equations</h5>
                             <p class="card-text text-white">Master the fundamentals of solving first-degree equations.
@@ -382,7 +382,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card topic-card">
-                        <img src="/api/placeholder/400/250" class="card-img topic-img" alt="Quadratic Equations">
+                        <img src="{{ asset('images/3.jpg') }}" class="card-img topic-img" alt="Quadratic Equations">
                         <div class="card-img-overlay d-flex flex-column justify-content-end">
                             <h5 class="card-title text-white">Quadratic Equations</h5>
                             <p class="card-text text-white">Learn methods for solving second-degree polynomial
@@ -393,7 +393,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card topic-card">
-                        <img src="/api/placeholder/400/250" class="card-img topic-img" alt="Systems of Equations">
+                        <img src="{{ asset('images/4.jpg') }}" class="card-img topic-img" alt="Systems of Equations">
                         <div class="card-img-overlay d-flex flex-column justify-content-end">
                             <h5 class="card-title text-white">Systems of Equations</h5>
                             <p class="card-text text-white">Discover techniques for solving multiple equations
@@ -404,7 +404,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card topic-card">
-                        <img src="/api/placeholder/400/250" class="card-img topic-img" alt="Polynomials">
+                        <img src="{{ asset('images/5.jpg') }}" class="card-img topic-img" alt="Polynomials">
                         <div class="card-img-overlay d-flex flex-column justify-content-end">
                             <h5 class="card-title text-white">Polynomials</h5>
                             <p class="card-text text-white">Explore operations and factoring techniques for polynomial
@@ -415,7 +415,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card topic-card">
-                        <img src="/api/placeholder/400/250" class="card-img topic-img" alt="Functions & Graphs">
+                        <img src="{{ asset('images/6.jpg') }}" class="card-img topic-img" alt="Functions & Graphs">
                         <div class="card-img-overlay d-flex flex-column justify-content-end">
                             <h5 class="card-title text-white">Functions & Graphs</h5>
                             <p class="card-text text-white">Understand relationships between variables through visual
@@ -426,7 +426,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card topic-card">
-                        <img src="/api/placeholder/400/250" class="card-img topic-img" alt="Logarithms">
+                        <img src="{{ asset('images/7.jpg') }}" class="card-img topic-img" alt="Logarithms">
                         <div class="card-img-overlay d-flex flex-column justify-content-end">
                             <h5 class="card-title text-white">Logarithms</h5>
                             <p class="card-text text-white">Navigate the world of logarithmic functions and their
@@ -474,7 +474,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="/api/placeholder/600/400" alt="Student practicing algebra" class="img-fluid about-img">
+                    <img src="{{ asset('images/pWb.png') }}" alt="Student practicing algebra"
+                        class="img-fluid about-img">
                 </div>
             </div>
         </div>
